@@ -120,7 +120,7 @@ nav ul .nav-list:hover::after {
 
 #Properti {
   background: #ffffff;
-  padding-top: 100px;
+  padding: 100px;
 }
 .Properti-top h2 {
   font-size: 36px;
@@ -129,5 +129,178 @@ nav ul .nav-list:hover::after {
   width: 533px;
   padding-bottom: 64px;
 }
-
+.Properti-item {
+  width: 300px;
+  height: 300px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 20px 0 20px 33px;
+}
+.Properti-item:hover {
+  border: 1px solid #eeedde;
+}
+.text-title .titleone {
+  font-size: 16px;
+  font-weight: 600;
+  color: #203239;
+  position: relative;
+}
+.text-title .titleone::after {
+  content: "01";
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff7527;
+  position: absolute;
+  right: 10px;
+}
+.text-title .titleone::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  border-radius: 10px;
+  background: #f6762e;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+}
+.text-title .titleTwo {
+  font-size: 16px;
+  font-weight: 600;
+  color: #203239;
+  position: relative;
+}
+.text-title .titleTwo::after {
+  content: "02";
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff7527;
+  position: absolute;
+  right: 10px;
+}
+.text-title .titleTwo::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  border-radius: 10px;
+  background: #f6762e;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+}
+.text-title .titlethree {
+  font-size: 16px;
+  font-weight: 600;
+  color: #203239;
+  position: relative;
+}
+.text-title .titlethree::after {
+  content: "03";
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff7527;
+  position: absolute;
+  right: 10px;
+}
+.text-title .titlethree::before {
+  content: "";
+  width: 8px;
+  height: 30px;
+  border-radius: 10px;
+  background: #f6762e;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+}
+.text-title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: rgba(32, 50, 57, 55%);
+  width: 235px;
+  margin: 0;
+}
+.text-title a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #203239;
+  text-decoration: none;
+  margin-top: 55px;
+  display: inline-block;
+}
+.text-title a .arrowRight {
+  margin-left: 8px;
+}
 /* ===================Properti css end==================== */
+/* ===================Residen css Start==================== */
+#Residen {
+  background: #eeedde;
+  padding-top: 68px;
+  padding-bottom: 163px;
+}
+.Residen-title h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff7527;
+}
+.Residen-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.Residen-main-box {
+  margin-top: 72px;
+}
+.Residen-img {
+  position: relative;
+}
+.Residen-img .upperimg {
+  position: absolute;
+  top: 64px;
+  left: 165px;
+}
+.Residen-text-area {
+  margin-top: 39px;
+}
+.Residen-text-area h2 {
+  width: 507px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: #203239;
+}
+.Residen-text-area p {
+  width: 570px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #203239;
+  margin-top: 24px;
+}
+.Residen-inputs {
+  margin-top: 48px;
+}
+.Residen-inputs button {
+  font-weight: 600;
+  font-size: 16px;
+  color: #203239;
+  padding: 13px 41px;
+  border: 2px solid #203239;
+  border-radius: 10px;
+  background: transparent;
+}
+.Residen-inputs button:hover {
+  background: #203239;
+  color: #eeedde;
+}
+.Residen-inputs .faphone {
+  margin-right: 12px;
+}
+.Residen-inputs .Explore {
+  margin-left: 49px;
+}
+/* ===================Residen css end==================== */
