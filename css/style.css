@@ -296,6 +296,7 @@ nav ul .nav-list:hover::after {
 .Residen-inputs button:hover {
   background: #203239;
   color: #eeedde;
+  transition: 0.4s;
 }
 .Residen-inputs .faphone {
   margin-right: 12px;
@@ -304,3 +305,95 @@ nav ul .nav-list:hover::after {
   margin-left: 49px;
 }
 /* ===================Residen css end==================== */
+/* ===================Kota css start==================== */
+#Kota {
+  padding: 76px 0;
+  background: #ffffff;
+}
+.kota-title h4 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff7527;
+}
+.kota-title h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #203239;
+  line-height: 150%;
+}
+.kota-item {
+  margin-top: 64px;
+}
+
+.kota-item h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #203239;
+  margin-top: 16px;
+}
+.kota-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #203239;
+  margin-top: 8px;
+}
+/* ===================Kota css end==================== */
+/* ===================Kami css start==================== */
+#Kami {
+  padding: 48px 0;
+  background: #eeedde;
+}
+.Kami-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #203239;
+}
+.kami-icons i {
+  font-size: 34px;
+  color: #203239;
+  font-weight: 600;
+}
+.kami-number h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #203239;
+}
+.kami-number h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #203239;
+}
+.kami-btn button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #203239;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px 18px;
+  margin-top: 27px;
+  text-transform: uppercase;
+}
+.kami-btn button:hover {
+  background: #ffffff;
+  color: #203239;
+  border: 1px solid #203239;
+}
+.kami-right img {
+  margin-top: 64px;
+}
+/* ===================Kami css end==================== */
+/* ===================footer css start==================== */
+footer {
+  background: #203239;
+  padding: 31px 0;
+}
+
+.footer-icons i {
+  font-size: 24px;
+  color: #eeedde;
+}
+/* ===================footer css end==================== */
